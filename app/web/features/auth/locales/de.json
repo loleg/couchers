@@ -95,7 +95,7 @@
     }
   },
   "basic_sign_up_form": {
-    "header": "My Home Is Your Castle",
+    "header": "#MyHomeIsYourCastle",
     "existing_user_prompt": "Hast du bereits einen Account? <2>$t(global:login)</2>",
     "sign_up_agreement_explainer": "Beim Fortfahren stimmst du unseren <2>Nutzungsvereinbarungen</2> zu, inklusive unseren Vereinbarung zur Verwendung von Cookies, E-Mail-Adresse und digitaler Informationen."
   },
@@ -110,7 +110,7 @@
   "reset_password_error": "Fehler beim Zurücksetzen des Passworts: {{message}}",
   "account_settings_page": {
     "birth_date_section": {
-      "explanation": "Die Admins werden dir behilfreich sein, dein Geburtsdatum zu ändern. Bitte kontaktiere support@couchers.org!",
+      "explanation": "Die Admins werden dir behilfreich sein, dein Geburtsdatum zu ändern. Bitte kontaktiere uns!",
       "title": "Geburtsdatum ändern"
     },
     "timezone_section": {
@@ -120,7 +120,7 @@
     },
     "gender_section": {
       "title": "Geschlecht ändern",
-      "explanation": "Die Admins werden dir behilfreich sein, deine Geschlechtsangaben zu ändern. Bitte kontaktiere support@couchers.org!"
+      "explanation": "Die Admins werden dir behilfreich sein, deine Geschlechtsangaben zu ändern. Bitte kontaktiere uns!"
     },
     "username_section": {
       "title": "Benutzername",
@@ -157,6 +157,7 @@
       }
     }
   },
+  "welcome": "Willkommen in der Schweiz!",
   "logged_out_message": "Du wurdest ausgeloggt.",
   "vercel_logo_alt_text": "Powered by Vercel",
   "jail_set_password_form": {
