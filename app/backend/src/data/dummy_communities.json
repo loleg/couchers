@@ -2,7 +2,7 @@
   "communities": [
     {
       "name": "Global",
-      "admins": ["oleg"],
+      "admins": ["aapeli"],
       "members": [],
       "parent": null,
       "coordinates": [
@@ -30,7 +30,7 @@
     },
     {
       "name": "Switzerland",
-      "admins": ["oleg"],
+      "admins": ["aapeli"],
       "members": [],
       "parent": "Global",
       "osm_id": 51701,
@@ -40,7 +40,7 @@
   "groups": [
     {
       "name": "Safe Harbour",
-      "admins": ["oleg"],
+      "admins": ["aapeli"],
       "members": [],
       "parent": "Switzerland"
     }
