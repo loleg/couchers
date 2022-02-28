@@ -6,7 +6,7 @@ import CircularProgress from "components/CircularProgress";
 import HtmlMeta from "components/HtmlMeta";
 import Redirect from "components/Redirect";
 import StyledLink from "components/StyledLink";
-import MobileAuthBg from "features/auth/resources/mobile-auth-bg.jpg";
+import MobileAuthBg from "features/auth/resources/csm_220226_Ukraine_Hilfe_Asylsuchende.jpg";
 import CommunityGuidelinesForm from "features/auth/signup/CommunityGuidelinesForm";
 import { Trans, useTranslation } from "i18n";
 import { AUTH, GLOBAL } from "i18n/namespaces";

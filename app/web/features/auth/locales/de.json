@@ -95,7 +95,7 @@
     }
   },
   "basic_sign_up_form": {
-    "header": "Lass uns loslegen!",
+    "header": "My Home Is Your Castle",
     "existing_user_prompt": "Hast du bereits einen Account? <2>$t(global:login)</2>",
     "sign_up_agreement_explainer": "Beim Fortfahren stimmst du unseren <2>Nutzungsvereinbarungen</2> zu, inklusive unseren Vereinbarung zur Verwendung von Cookies, E-Mail-Adresse und digitaler Informationen."
   },
@@ -104,8 +104,8 @@
   "reset_password_success": "Dein Passwort wurde erfolgreich geändert! Dir wird jetzt ein magischer Link an deine E-Mail-Adresse gesendet, sobald du dich mit Benutzername oder E-Mail-Adresse einloggst.",
   "login_prompt": "Klicke hier, um dich einzuloggen",
   "about_us": "Über uns",
-  "introduction_subtitle": "Auf ewig kostenlos. Von der Community geleitet. Gemeinnützig. Modern.",
-  "introduction_title": "Tritt uns bei und unterstütze uns darin, die neue Alternative zu Couchsurfing™ wachsen zu lassen",
+  "introduction_subtitle": "Menschen aus der Ukraine sind auf der Flucht und suchen Schutz vor dem Krieg. Geben wir ihnen einen sicheren Zufluchtsort! In der Schweiz sind Privatpersonen bereit, Zimmer, Wohnungen oder Häuser kostenlos zur Verfügung zu stellen oder für Lebensunterhalt zu spenden.",
+  "introduction_title": "Unterkünfte für Kriegsflüchtlinge aus der Ukraine",
   "reset_password": "Passwort zurücksetzen",
   "reset_password_error": "Fehler beim Zurücksetzen des Passworts: {{message}}",
   "account_settings_page": {
