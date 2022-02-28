@@ -1,4 +1,4 @@
-import mobileAuthBg from "features/auth/resources/csm_220226_Ukraine_Hilfe_Asylsuchende.jpg";
+import mobileAuthBg from "features/auth/resources/mobile-auth-bg.jpg";
 import makeStyles from "utils/makeStyles";
 
 const useAuthStyles = makeStyles((theme) => ({

@@ -131,7 +131,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Footer() {
   const classes = useStyles();
-  return (
+  // disable the footer
+  return true ? '' : (
     <footer className={classes.root}>
       <div className={classes.upperOuterContainer}>
         <div

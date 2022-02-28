@@ -96,23 +96,23 @@ const loggedInDrawerMenu = (pingData: PingData): Array<MenuItemProps> => [
     name: "Account settings",
     route: settingsRoute,
   },
-  {
-    name: "Feature preview",
-    route: featurePreviewRoute,
-  },
-  {
-    name: EVENTS,
-    route: eventsRoute,
-  },
-  {
-    name: FORUM,
-    route: forumURL,
-    externalLink: true,
-  },
-  {
-    name: HELP,
-    route: handbookRoute,
-  },
+  // {
+  //   name: "Feature preview",
+  //   route: featurePreviewRoute,
+  // },
+  // {
+  //   name: EVENTS,
+  //   route: eventsRoute,
+  // },
+  // {
+  //   name: FORUM,
+  //   route: forumURL,
+  //   externalLink: true,
+  // },
+  // {
+  //   name: HELP,
+  //   route: handbookRoute,
+  // },
   {
     name: LOG_OUT,
     route: logoutRoute,
@@ -153,27 +153,27 @@ const loggedOutNavMenu = (): Array<MenuItemProps> => [
     name: "About",
     route: "/",
   },
-  {
-    name: "Blog",
-    route: blogRoute,
-  },
-  {
-    name: "Our Plan",
-    route: planRoute,
-  },
-  {
-    name: "FAQ",
-    route: faqRoute,
-  },
-  {
-    name: "The Team",
-    route: teamRoute,
-  },
-  {
-    name: FORUM,
-    route: forumURL,
-    externalLink: true,
-  },
+  // {
+  //   name: "Blog",
+  //   route: blogRoute,
+  // },
+  // {
+  //   name: "Our Plan",
+  //   route: planRoute,
+  // },
+  // {
+  //   name: "FAQ",
+  //   route: faqRoute,
+  // },
+  // {
+  //   name: "The Team",
+  //   route: teamRoute,
+  // },
+  // {
+  //   name: FORUM,
+  //   route: forumURL,
+  //   externalLink: true,
+  // },
 ];
 
 const loggedOutDrawerMenu = (): Array<MenuItemProps> => [
@@ -189,27 +189,27 @@ const loggedOutDrawerMenu = (): Array<MenuItemProps> => [
     name: "About",
     route: "/",
   },
-  {
-    name: "Blog",
-    route: blogRoute,
-  },
-  {
-    name: "Our Plan",
-    route: planRoute,
-  },
-  {
-    name: "FAQ",
-    route: faqRoute,
-  },
-  {
-    name: "The Team",
-    route: teamRoute,
-  },
-  {
-    name: FORUM,
-    route: forumURL,
-    externalLink: true,
-  },
+  // {
+  //   name: "Blog",
+  //   route: blogRoute,
+  // },
+  // {
+  //   name: "Our Plan",
+  //   route: planRoute,
+  // },
+  // {
+  //   name: "FAQ",
+  //   route: faqRoute,
+  // },
+  // {
+  //   name: "The Team",
+  //   route: teamRoute,
+  // },
+  // {
+  //   name: FORUM,
+  //   route: forumURL,
+  //   externalLink: true,
+  // },
 ];
 
 // shown on desktop and big screens in the top right corner when logged in
@@ -507,11 +507,6 @@ export default function Navigation() {
               }}
             >
               <div className={classes.drawerHeader}>
-                <div
-                  className={classNames(authClasses.logo, classes.drawerTitle)}
-                >
-                  {COUCHERS}
-                </div>
                 <IconButton
                   className={classes.icon}
                   aria-label="close drawer"
@@ -523,7 +518,6 @@ export default function Navigation() {
               {drawerItems}
             </Drawer>
           </Hidden>
-          <CouchersLogo />
           <Hidden smDown implementation="css">
             <div className={classes.flex}>
               {(authState.authenticated && isMounted
@@ -552,7 +546,6 @@ export default function Navigation() {
 
         <Hidden implementation="css">
           <div className={classes.menuContainer}>
-            <ReportButton />
             {authState.authenticated && isMounted ? (
               <LoggedInMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}>
                 {menuItems}
